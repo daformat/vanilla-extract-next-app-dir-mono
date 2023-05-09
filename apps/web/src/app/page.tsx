@@ -1,9 +1,9 @@
-import { Illustration } from './components/illustration'
+import { Illustration } from "./components/illustration";
 
-import * as styles from './styles.css.ts'
-import {sprinkles} from "@/sprinkles/sprinkles.css";
-import {recipeCss} from "@/sprinkles/recipe.css";
-import {Button} from "ui";
+import * as styles from "./styles.css.ts";
+import { sprinkles } from "@/sprinkles/sprinkles.css";
+import { recipeCss } from "@/sprinkles/recipe.css";
+import { Button } from "ui";
 import { testSprinkles } from "@/sprinkles/test.css";
 
 export default function Home() {
@@ -15,24 +15,25 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.details}>
           <p>
-            <span className={recipeCss({color: 'blue'})}>Built</span> <span className={recipeCss({color: 'green'})}> with</span>{' '}
+            <span className={recipeCss({ color: "blue" })}>Built</span> <span
+            className={recipeCss({ color: "green" })}> with</span>{" "}
             <a
-              className={[styles.link, sprinkles({color: 'warning'}), testSprinkles({padding: 's5'})].join(' ')}
+              className={[styles.link, sprinkles({ color: "warning" }), testSprinkles({ padding: "s5" })].join(" ")}
               target="_blank"
               href="https://nextjs.org"
               rel="noreferrer"
             >
               Next.js
-            </a>{' '}
-            and{' '}
+            </a>{" "}
+            and{" "}
             <a
-              className={[styles.link, sprinkles({color: 'error'})].join(' ')}
+              className={[styles.link, sprinkles({ color: "error" })].join(" ")}
               target="_blank"
               href="https://vanilla-extract.style/"
               rel="noreferrer"
             >
               Vanilla Extract
-            </a>{' '}
+            </a>{" "}
           </p>
           <p>
             <Button>base</Button>
@@ -63,7 +64,7 @@ export default function Home() {
         </a>
       </footer>
     </>
-  )
+  );
 }
 
-export const runtime = 'experimental-edge'
+export const runtime = "experimental-edge";
