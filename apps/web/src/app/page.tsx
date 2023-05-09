@@ -3,7 +3,7 @@ import { Illustration } from './components/illustration'
 import * as styles from './styles.css.ts'
 import {sprinkles} from "@/sprinkles/sprinkles.css";
 import {recipeCss} from "@/sprinkles/recipe.css";
-import {Button} from "ui/button";
+import {Button} from "ui";
 
 export default function Home() {
   return (
