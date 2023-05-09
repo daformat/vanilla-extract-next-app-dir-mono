@@ -1,7 +1,7 @@
-"use client";
+import {button, ButtonVariants} from "./button.css";
+import {ReactNode} from "react";
 
-import * as React from "react";
+export const Button = ({color, children}: ButtonVariants & {children: ReactNode}) => {
+  return <button className={button({color})}>{children}</button>
 
-export const Button = () => {
-  return <button onClick={() => alert("boop")}>Boop</button>;
-};
+}

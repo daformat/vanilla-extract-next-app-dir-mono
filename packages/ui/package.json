@@ -8,6 +8,9 @@
     "lint": "eslint \"**/*.ts*\""
   },
   "devDependencies": {
+
+    "@vanilla-extract/recipes": "^0.4.0",
+    "@vanilla-extract/sprinkles": "^1.6.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",

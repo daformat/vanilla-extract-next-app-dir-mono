@@ -1,6 +1,6 @@
 {
-  "name": "web",
-  "version": "1.0.0",
+  "name": "vanilla-extract-app-dir",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vanilla-extract/recipes": "^0.4.0",
+    "@vanilla-extract/sprinkles": "^1.6.0",
     "next": "^13.4.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "eslint-config-custom": "workspace:*",
-    "tsconfig": "workspace:*",
-    "typescript": "^4.5.3"
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.34",
+    "@types/react-dom": "18.0.11",
+    "@vanilla-extract/css": "^1.11.0",
+    "@vanilla-extract/next-plugin": "^2.1.2",
+    "typescript": "5.0.4",
+    "webpack": "5.74.0"
   }
 }
