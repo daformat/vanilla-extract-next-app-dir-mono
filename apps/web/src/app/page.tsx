@@ -4,6 +4,7 @@ import * as styles from './styles.css.ts'
 import {sprinkles} from "@/sprinkles/sprinkles.css";
 import {recipeCss} from "@/sprinkles/recipe.css";
 import {Button} from "ui";
+import { testSprinkles } from "@/sprinkles/test.css";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           <p>
             <span className={recipeCss({color: 'blue'})}>Built</span> <span className={recipeCss({color: 'green'})}> with</span>{' '}
             <a
-              className={[styles.link, sprinkles({color: 'warning'})].join(' ')}
+              className={[styles.link, sprinkles({color: 'warning'}), testSprinkles({padding: 's5'})].join(' ')}
               target="_blank"
               href="https://nextjs.org"
               rel="noreferrer"
